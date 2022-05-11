@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Peter Sorenson Graphic Design Contact</title>
+<meta charset="utf-8">
+<meta name="keywords" content="PSGD, Peter Sorenson Graphic Design, contact, genius">
+<meta name="author" content="Peter Sorenson">
+<style>
+    a:visited {
+  color: darkolivegreen;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(242, 245, 82);
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  border-style: solid;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: rgb(122, 216, 188);
+  padding: 20px;
+  border-style: solid;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(125, 97, 156);
+  padding: 50px;
+  text-align: center;
+  color: white;
+  border-style: solid;
+  border-color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Peter Sorenson Graphic Design</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="PSGD.html">Home</a></li>
+      <li><a href="PSGD_about.html">About</a></li>
+      <li><a href="psgd_gallery.html">Gallery</a></li>
+      <li><a href="psgd_products.html">Products</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+   <p>Email: sorpet@dunwoody.edu <br>
+    Phone: 612-716-1799
+
+   </p>
+  </article>
+</section>
+
+<footer>
+</footer>
+
+</body>
+</html>
